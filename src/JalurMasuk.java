@@ -9,5 +9,20 @@
  * @author Irham Rizady
  */
 public class JalurMasuk {
+    private String jalur;
     
+    public JalurMasuk(){
+        
+    }
+    public void setJalurMasuk(String jalur){
+        this.jalur = jalur;
+    }
+    public String getJalurMasuk(){
+        return jalur;
+    }
+    public String info(){
+        String info="";
+        info += "Jalur Masuk: "+this.jalur+"\n";
+        return info;
+    }
 }
